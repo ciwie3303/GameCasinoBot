@@ -13,7 +13,7 @@ def cabinet_keyboard():
 def deposit_keyboard():
     keyboard = InlineKeyboardMarkup()
     button1 = InlineKeyboardButton(text="₿ Banker", callback_data="deposit:banker")
-    button2 = InlineKeyboardButton(text="Через поддержку", url="t.me/gamesbanker")
+    button2 = InlineKeyboardButton(text="Через поддержку", url="t.me/ coinBANKER")
     keyboard.row(button1)
     keyboard.add(button2)
 
